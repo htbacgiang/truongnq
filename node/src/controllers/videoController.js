@@ -1,4 +1,4 @@
-import videoService from "../services/videoService";
+import videoService from "../services/videoService.js";
 
     let handleGetVideos = async(req,res)=>{
         try {

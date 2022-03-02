@@ -1,8 +1,8 @@
 import express from "express";
-import homeController from "../controllers/homeController";
-import userController from "../controllers/userController";
-import videoController from "../controllers/videoController";
-import blogController from "../controllers/blogController";
+import homeController from "../controllers/homeController.js";
+import userController from "../controllers/userController.js";
+import videoController from "../controllers/videoController.js";
+import blogController from "../controllers/blogController.js";
 
 
 
