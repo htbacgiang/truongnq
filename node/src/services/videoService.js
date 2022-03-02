@@ -1,4 +1,4 @@
-import db from "../models/index.js";
+import db from "../models/index";
 
     let getVideos = (videoId) =>{
         return new Promise (async(resolve, reject)=>{

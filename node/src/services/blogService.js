@@ -1,4 +1,4 @@
-import db from "../models/index.js";
+import db from "../models/index";
 
     let getBlogs = (limitInput) =>{
         return new Promise (async(resolve, reject)=>{

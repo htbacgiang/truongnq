@@ -1,6 +1,6 @@
 import { reject } from 'async';
 import bcrypt from 'bcryptjs';
-import db from '../models/index.js';
+import db from '../models/index';
 
  
 let createNewVideo = async (data) => {
