@@ -1,8 +1,8 @@
-import express from "express";
 import bodyParser from "body-parser";
 import viewEngine from "./config/viewEngine.js";
 import initWebRoutes from './route/web.js';
 import connectDB from './config/connectDB.js';
+var express = require("express");
 
 require('dotenv').config();
 
@@ -44,3 +44,9 @@ app.listen(port, () => {
     //callback
     console.log("Backend Nodejs is runing on the port : " + port)
 })
+module.exports = {
+    "apps": [{
+        "name": "MyApp",
+        "script": "./server.js"
+    }]
+}
