@@ -1,8 +1,8 @@
-require('dotenv').config('');
+require('dotenv').config();
 
 export default {
     api: {
-        API_BASE_URL:  process.env.REACT_APP_BACKEND_URL,
+        API_BASE_URL: 'http://localhost:8080',
         ROUTER_BASE_NAME: null,
     },
     app: {
