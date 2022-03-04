@@ -1,8 +1,9 @@
-import bodyParser from "body-parser";
-import viewEngine from "./config/viewEngine.js";
-import initWebRoutes from './route/web.js';
-import connectDB from './config/connectDB.js';
-var express = require("express");
+
+const express = require("express");
+const bodyParser = require("body-parser");
+const viewEngine = require("./config/viewEngine.js");
+const initWebRoutes = require("./route/web.js");
+const connectDB = require("./config/connectDB.js");
 
 require('dotenv').config();
 
@@ -12,7 +13,7 @@ let app = express();
 app.use(function (req, res, next) {
 
     // Website you wish to allow to connect
-    res.setHeader('Access-Control-Allow-Origin', process.env.URL_REACT);
+    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
 
     // Request methods you wish to allow
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
@@ -37,7 +38,7 @@ initWebRoutes(app);
 
 connectDB();
 
-let port = process.env.PORT || 2701;
+let port = process.env.PORT || 8080;
 //Port === undefined => port = 2701
 
 app.listen(port, () => {

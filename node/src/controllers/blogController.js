@@ -1,4 +1,5 @@
-import blogService from "../services/blogService.js";
+const blogService = require("../services/blogService");
+
 
     let handleGetBlogs = async(req,res)=>{
         let limit = req.query.limit;

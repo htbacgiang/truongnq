@@ -1,10 +1,8 @@
-import express from "express";
-import homeController from "../controllers/homeController.js";
-import userController from "../controllers/userController.js";
-import videoController from "../controllers/videoController.js";
-import blogController from "../controllers/blogController.js";
-
-
+const express = require("express");
+const homeController = require("../controllers/homeController");
+const userController = require("../controllers/userController");
+const videoController = require("../controllers/videoController");
+const blogController = require("../controllers/blogController");
 
 
 let router = express.Router();

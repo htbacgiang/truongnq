@@ -1,5 +1,6 @@
-import db from '../models/index.js';
-import CRUDservice from '../services/CRUDservice.js';
+const db = require("../models/index");
+const CRUDservice = require("../services/CRUDservice");
+
 
 let getHomePage = async (req, res) => {
     try{
@@ -7,7 +8,6 @@ let getHomePage = async (req, res) => {
         return res.render('homepage.ejs',{
             data: JSON.stringify(data)
         });
-
     }
     catch(e){
         console.log(e)

@@ -1,4 +1,4 @@
-import videoService from "../services/videoService.js";
+const videoService = require("../services/videoService");
 
     let handleGetVideos = async(req,res)=>{
         try {

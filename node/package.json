@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "nodejs react mysql",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --exec babel-node src/server.js"
@@ -19,6 +20,7 @@
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "forever": "^4.0.3",
+    "gulp-imagemin": "^7.1.0",
     "mysql2": "^2.2.5",
     "react-draft-wysiwyg": "^1.14.7",
     "react-js-pagination": "^3.0.3",

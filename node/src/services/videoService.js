@@ -1,4 +1,4 @@
-import db from "../models/index.js";
+const db = require("../models/index");
 
     let getVideos = (videoId) =>{
         return new Promise (async(resolve, reject)=>{

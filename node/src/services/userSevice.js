@@ -1,5 +1,6 @@
-import db from "../models/index.js";
-import bcrypt from 'bcryptjs';
+const db = require("../models/index");
+const bcrypt = require("bcryptjs");
+
 const salt = bcrypt.genSaltSync(10);
 
 let hashUserPassword = (password) => {

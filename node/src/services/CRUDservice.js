@@ -1,7 +1,10 @@
-import { reject } from 'async';
-import bcrypt from 'bcryptjs';
-import db from '../models/index.js';
+const db = require("../models/index.js");
+const bcrypt = require("bcryptjs");
+const reject = require("async");
 
+
+
+ 
  
 let createNewVideo = async (data) => {
     return new Promise(async (resolve, reject) =>{
