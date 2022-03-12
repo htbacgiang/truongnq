@@ -43,10 +43,10 @@ class Video extends Component {
             <ul>
                        <li><a> <Link to={`/album/viet-nam-que-huong-toi`}> Việt Nam quê hương tôi </Link> </a></li>
                        <li><a> <Link to={`/album/ha-tay-que-lua`}> Hà Tây quê lụa </Link> </a></li>
-                       <li><a> <Link to={`album/truong-va-nhung-nguoi-ban`}> Trường & Friends </Link> </a></li>
+                       <li><a> <Link to={`/album/truong-va-nhung-nguoi-ban`}> Trường & Friends </Link> </a></li>
                        <li><a> <Link to={`/album/bsa`}> BSA </Link> </a></li>
-                       <li><a> <Link to={`album/bus-ha-noi`}> Xe bus Hà Nội </Link> </a></li>
-                       <li><a> <Link to={`album/design`}> Design </Link> </a></li>
+                       <li><a> <Link to={`/album/bus-ha-noi`}> Xe bus Hà Nội </Link> </a></li>
+                       <li><a> <Link to={`/album/design`}> Design </Link> </a></li>
             </ul>
           </li>
           <li><a> <Link to={`/blog`}> Bài biết </Link> </a></li>
@@ -62,10 +62,10 @@ class Video extends Component {
                       <ul>
                       <li><a> <Link to={`/album/viet-nam-que-huong-toi`}> Việt Nam quê hương tôi </Link> </a></li>
                        <li><a> <Link to={`/album/ha-tay-que-lua`}> Hà Tây quê lụa </Link> </a></li>
-                       <li><a> <Link to={`album/truong-va-nhung-nguoi-ban`}> Trường & Friends </Link> </a></li>
+                       <li><a> <Link to={`/album/truong-va-nhung-nguoi-ban`}> Trường & Friends </Link> </a></li>
                        <li><a> <Link to={`/album/bsa`}> BSA </Link> </a></li>
-                       <li><a> <Link to={`album/bus-ha-noi`}> Xe bus Hà Nội </Link> </a></li>
-                       <li><a> <Link to={`album/design`}> Design </Link> </a></li>
+                       <li><a> <Link to={`/album/bus-ha-noi`}> Xe bus Hà Nội </Link> </a></li>
+                       <li><a> <Link to={`/album/design`}> Design </Link> </a></li>
                       </ul>
                     </li>
                     <li><a> <Link to={`/blog`}> Bài viết </Link> </a></li>
